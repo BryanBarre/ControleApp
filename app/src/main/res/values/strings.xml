@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ControleApp</string>
+    <string name="x_2">x 2</string>
+    <string name="_1">+ 1</string>
+    <string name="number_text">empty</string>
+    <string name="play_with_x_3">PLAY WITH X 3</string>
+    <string name="play_with_x_2">PLAY WITH X 2</string>
+</resources>

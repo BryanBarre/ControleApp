@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/choiceFragment">
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:name="fr.mastersid.barre.controleapp.ChoiceFragment"
+        android:label="ChoiceFragment"
+        tools:layout="@layout/fragment_choice">
+        <action
+            android:id="@+id/action_choiceFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="fr.mastersid.barre.controleapp.PlayFragment"
+        android:label="DiceFragment"
+        tools:layout="@layout/fragment_play">
+        <argument
+            android:name="number"
+            app:argType="integer"/>
+
+    </fragment>
+</navigation>
